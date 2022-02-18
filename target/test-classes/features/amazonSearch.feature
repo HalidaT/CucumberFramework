@@ -3,9 +3,6 @@ Feature: Amazon Search
          As a user, I should be able to search an item
          and the searched item should be relavant to search
 
-  Background: 
-    Given I am on the amazon login page
-    
   @amazonSearch @SmokeTests
   Scenario Outline: User is able to search multiple data set
     Given I am on amazon home page

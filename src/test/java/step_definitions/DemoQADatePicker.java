@@ -39,4 +39,3 @@ public class DemoQADatePicker {
 		System.out.println("Entered date is: " + datePickerPage.firstDatePicker.getAttribute("value"));
 	}
 }
-

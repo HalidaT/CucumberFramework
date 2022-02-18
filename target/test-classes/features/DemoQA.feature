@@ -18,3 +18,4 @@ Feature: DemoQA is a good website
     Given I am on the Alerts page "https://demoqa.com/alerts"
     When I click on AlertButton element
     Then I am able to accept the Alert
+    

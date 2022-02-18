@@ -37,4 +37,3 @@ public class DemoQAPage {
 	public WebElement confirmOrDismissAlert;
 	
 }
-

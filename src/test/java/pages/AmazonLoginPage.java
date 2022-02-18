@@ -11,7 +11,7 @@ public class AmazonLoginPage {
 		PageFactory.initElements(Driver.getDriver(), this);
 	}
 	
-	@FindBy (id ="nav-link-accountList-nav-line-1")
+	@FindBy (id = "nav-link-accountList-nav-line-1")
 	public WebElement signInBtn;
 	
 	@FindBy (id = "ap_email")
@@ -22,8 +22,6 @@ public class AmazonLoginPage {
 	
 	@FindBy (css = ".a-list-item")
 	public WebElement errorMessage;
-
 	
 
 }
-

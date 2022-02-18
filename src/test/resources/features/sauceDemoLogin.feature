@@ -21,11 +21,11 @@ Feature: Sauce Demo Login
     And Error message should display "Epic sadface: Username and password do not match any user in this service"
 
   @SauceInvalidTests
-  Scenario Outline: user is not able to login with invalid credential
-    When I enter invalid username "<username>" password password "<password>"
+  Scenario Outline: User is not able to log in with invalid credentials
+    When I enter invalid username "<username>" password "<password>"
     And I click on the login button
     Then I should not be logged in
-    And Error message shold display "Epic sadface: Username and password"
+    And Error message should display "Epic sadface: Username and password do not match any user in this service"
 
     Examples: Credentials
       | username      | password       |

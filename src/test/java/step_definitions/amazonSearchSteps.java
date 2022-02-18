@@ -2,7 +2,6 @@ package step_definitions;
 
 
 import org.junit.Assert;
-import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pages.amazonSearchPage;
@@ -10,8 +9,6 @@ import pages.amazonSearchPage;
 public class amazonSearchSteps {
 	
 	amazonSearchPage searchPage = new amazonSearchPage();
-	String username;
-	String password;
 	// Amazon search #Starts
 	@When("I search item {string}")
 	public void i_search_item(String item) {
